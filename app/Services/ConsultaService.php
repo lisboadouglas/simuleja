@@ -84,7 +84,7 @@ class ConsultaService
             $simulacao['qntParcelas'] = $qntParcelas;
             $simulacao['valorParcela'] = $simulacao['valorAPagar'] / $qntParcelas;
         }
-       
+    
         // Ordena as simulações pelo valor a pagar
         usort($simulacoes, function ($a, $b) {
             return $a['valorAPagar'] <=> $b['valorAPagar'];
