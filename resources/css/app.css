@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header,#hero{
+    background-color:#EDF3F2;
+}
+#hero{
+    min-height: 65vh;
+}
+#simulador{
+    margin-top: -5rem;
+}
