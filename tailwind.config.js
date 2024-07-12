@@ -48,6 +48,8 @@ export default {
     'shadow-2xl',
     'shadow-black',
     'shadow-white',
+    'border-lime-500/20',
+    'border-lime-500',
   ]
 }
 

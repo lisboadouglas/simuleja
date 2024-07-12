@@ -5,7 +5,7 @@
         @endphp
         @foreach ($boxes as $box)
             <div
-                class="w-96 relative  px-4 pt-16 pb-8 bg-white rounded bg-green-50">
+                class="w-96 relative  px-4 pt-16 pb-8 bg-white rounded bg-green-50 border-lime-500/20 group shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)]">
                 @if ($count == 0)
                     <div
                         class="absolute top-0 left-1/2 -translate-x-1/2 rounded-bl rounded-bxl  text-white px-8 py-2 bg-[#172B03] transition-all duration-150 ease-in group-hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)]">
